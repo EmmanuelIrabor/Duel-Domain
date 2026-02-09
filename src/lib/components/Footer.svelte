@@ -1,5 +1,10 @@
 
-
+<script lang="ts">
+    import DD from '$lib/assets/DD.png';
+    import card from '$lib/assets/card.png';
+    import visa from '$lib/assets/visa.png';   
+    import crypto from '$lib/assets/crypto.png';
+</script>
 <footer class="mt-40">
 
      <!-- <div class="mt-5">
@@ -10,12 +15,12 @@
 
         <div class="flex flex-row flex-wrap items-center justify-between gap-5">
        <div class="flex flex-col gap-2 " >
-          <a href="../"> <img class="w-12 h-12" src="/src/lib/assets/DD.png" alt="Duel Domain Logo"></a>
+          <a href="../"> <img class="w-12 h-12" src={DD} alt="Duel Domain Logo"></a>
            <p class="mt-1 text-xs">The ultimate arena for skilled gamers to<br/> compete and earn</p>
            <div class="flex flex-row items-center gap-6">
-            <img src="/src/lib/assets/card.png" alt="">
-             <img src="/src/lib/assets/visa.png" alt="">
-              <img src="/src/lib/assets/crypto.png" alt="">
+            <img src={card} alt="">
+             <img src={visa} alt="">
+              <img src={crypto} alt="">
            </div>
        </div>
 

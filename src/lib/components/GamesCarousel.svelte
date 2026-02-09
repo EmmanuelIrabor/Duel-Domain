@@ -2,56 +2,60 @@
   import { spring } from 'svelte/motion';
   import { onMount } from 'svelte';
   import GameCard from '$lib/components/ui/GameCard.svelte';
-  
   export let title: string = "Featured Battle Grounds";
+  import efootball from '$lib/assets/efootball.png';
+  import cod from '$lib/assets/cod.png';
+  import ms from '$lib/assets/ms.png';
+  import freefire from '$lib/assets/freefire.png';
+  import amongus from '$lib/assets/amongus.png';
   
   const games = [
     {
       link: "../",
-      image: "/src/lib/assets/efootball.png",
+      image: efootball,
       title: "E-football",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio obcaecati consequuntur assumenda magni aliquam minus, eveniet illum odit veritatis vero? Voluptatem doloremque placeat fuga commodi maiores animi labore eligendi sed."
     },
     {
       link: "../",
-      image: "/src/lib/assets/cod.png",
+      image: cod,
       title: "Call of duty",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio obcaecati consequuntur assumenda magni aliquam minus, eveniet illum odit veritatis vero? Voluptatem doloremque placeat fuga commodi maiores animi labore eligendi sed."
     },
     {
       link: "../",
-      image: "/src/lib/assets/freefire.png",
+      image: freefire,
       title: "Free Fire",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio obcaecati consequuntur assumenda magni aliquam minus, eveniet illum odit veritatis vero? Voluptatem doloremque placeat fuga commodi maiores animi labore eligendi sed."
     },
     {
       link: "../",
-      image: "/src/lib/assets/amongus.png",
+      image: amongus,
       title: "Among Us",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio obcaecati consequuntur assumenda magni aliquam minus, eveniet illum odit veritatis vero? Voluptatem doloremque placeat fuga commodi maiores animi labore eligendi sed."
     },
     // Second set (duplicates)
     {
       link: "../",
-      image: "/src/lib/assets/ms.png",
+      image: ms,
       title: "MySquad",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio obcaecati consequuntur assumenda magni aliquam minus, eveniet illum odit veritatis vero? Voluptatem doloremque placeat fuga commodi maiores animi labore eligendi sed."
     },
     {
       link: "../",
-      image: "/src/lib/assets/cod.png",
+      image: cod,
       title: "Call of duty",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio obcaecati consequuntur assumenda magni aliquam minus, eveniet illum odit veritatis vero? Voluptatem doloremque placeat fuga commodi maiores animi labore eligendi sed."
     },
     {
       link: "../",
-      image: "/src/lib/assets/freefire.png",
+      image: freefire,
       title: "Free Fire",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio obcaecati consequuntur assumenda magni aliquam minus, eveniet illum odit veritatis vero? Voluptatem doloremque placeat fuga commodi maiores animi labore eligendi sed."
     },
     {
       link: "../",
-      image: "/src/lib/assets/amongus.png",
+      image: amongus,
       title: "Among Us",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio obcaecati consequuntur assumenda magni aliquam minus, eveniet illum odit veritatis vero? Voluptatem doloremque placeat fuga commodi maiores animi labore eligendi sed."
     },

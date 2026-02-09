@@ -1,7 +1,7 @@
 <script lang="ts">
 
-     import * as Popover from "$lib/components/ui/popover/index.js";
-
+  import * as Popover from "$lib/components/ui/popover/index.js";
+   import logo from '$lib/assets/logo.png';
   import * as DropdownMenu from "$lib/components/ui/dropdown-menu/index.js";
 
   let isMenuOpen = $state(false);
@@ -16,7 +16,7 @@
   <div>
     <a href="../">
         <img 
-    src="/src/lib/assets/logo.png" 
+    src={logo} 
     alt="Duel Domain Logo" 
     class="xl:w-15 xl:h-15 w-10 h-10"
   />

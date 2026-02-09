@@ -1,11 +1,22 @@
 
 <script>
+    
+    import blob from '$lib/assets/blob.png';
   import GamesCarousel from '$lib/components/GamesCarousel.svelte';
     import NavBar from '$lib/components/NavBar.svelte';
   import GameCard from '$lib/components/ui/GameCard.svelte';
     import HomeInfoCard from '$lib/components/ui/HomeInfoCard.svelte';
     import SlidingBars from '$lib/components/ui/SlidingBars.svelte';
    import Footer from '$lib/components/Footer.svelte';
+   import android from '$lib/assets/supported/android.png';
+   import apple from '$lib/assets/supported/apple.png';
+   import playstation from '$lib/assets/supported/playstation.png';
+   import xbox from '$lib/assets/supported/xbox.png';
+   import ea from '$lib/assets/supported/ea-sports.png';
+   import konami from '$lib/assets/supported/konami.png';
+   import sega from '$lib/assets/supported/sega.png';
+   import namco from '$lib/assets/supported/namco.png';
+   import gaming from '$lib/assets/gaming.png';
     
      
 </script>
@@ -13,7 +24,7 @@
 
 <section class="hero-section mt-20 xl:px-10 px-5 relative">
     <div class="absolute top-0 left-0 w-full h-full z-0 layer-blur pointer-events-none">
-        <img class="w-full h-full" src="/src/lib/assets/blob.png" alt="">
+        <img class="w-full h-full" src={blob} alt="">
     </div>
     
     <div class="xl:px-20 px-5 z-10 relative">
@@ -122,21 +133,21 @@
 
  <div class="xl:px-10 px-0 flex flex-row items-center mt-20 gap-6 md:gap-20 xl:gap-30 justify-center">
 
-    <img class="xl:w-7 xl:h-7" src="/src/lib/assets/supported/android.png" alt="">
+    <img class="xl:w-7 xl:h-7" src={android} alt="">
 
-    <img class="xl:w-7 xl:h-7" src="/src/lib/assets/supported/apple.png" alt="">
+    <img class="xl:w-7 xl:h-7" src={apple} alt="">
 
-    <img class="xl:w-7 xl:h-7" src="/src/lib/assets/supported/playstation.png" alt="">
+    <img class="xl:w-7 xl:h-7" src={playstation} alt="">
 
-    <img class="xl:w-7 xl:h-7" src="/src/lib/assets/supported/xbox.png" alt="">
+    <img class="xl:w-7 xl:h-7" src={xbox} alt="">
 
-    <img class="xl:w-7 xl:h-7" src="/src/lib/assets/supported/ea-sports.png" alt="">
+    <img class="xl:w-7 xl:h-7" src={ea} alt="">
 
-    <img class="xl:w-7 xl:h-7" src="/src/lib/assets/supported/konami.png" alt="">
+    <img class="xl:w-7 xl:h-7" src={konami} alt="">
 
-    <img class="xl:w-7 xl:h-7" src="/src/lib/assets/supported/sega.png" alt="">
+    <img class="xl:w-7 xl:h-7" src={sega} alt="">
 
-    <img class="xl:w-7 xl:h-7" src="/src/lib/assets/supported/namco.png" alt="">
+    <img class="xl:w-7 xl:h-7" src={namco} alt="">
 
  
 
