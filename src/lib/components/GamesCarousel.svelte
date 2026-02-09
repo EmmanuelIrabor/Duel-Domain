@@ -137,7 +137,7 @@
   <div class="relative mt-10 overflow-hidden w-full">
     {#if isMobile}
       <!-- Mobile: Show sets of 4 in columns -->
-      <div class="flex flex-col gap-5">
+      <div class="flex flex-col gap-5 px-10">
         {#if currentIndex === 0}
           {#each games.slice(0, 4) as game, index (index)}
             <GameCard
