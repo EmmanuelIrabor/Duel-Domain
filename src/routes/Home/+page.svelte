@@ -222,7 +222,7 @@
  <div class="flex md:flex-row flex-col gap-30 px-5 xl:px-20 mt-30 items-center">
 
     <div class="col-lg-5 col-12 order-2 md:order-1 flex flex-row md:justify-end justify-center">
-        <img class="w-70 h-70" src="/src/lib/assets/gaming.png" alt="">
+        <img class="w-70 h-70" src={gaming} alt="">
     </div>
     <div class="col-lg-6 col-12 order-1 md:order-2 flex flex-col">
         <h1 class="font-bold text-2xl"><span class="grd_one">Why Duel Domain &nbsp;</span>is the future of gaming</h1>
