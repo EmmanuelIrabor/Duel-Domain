@@ -1,0 +1,100 @@
+
+@import "colors";
+ .progress-gradient {
+    background: linear-gradient(to right, $color-primary 0%, $color-mid 50%, $color-secondary 100%);
+  }
+
+  .scrolling-text {
+        // overflow: hidden;
+        white-space: nowrap;
+        animation: scroll 20s linear infinite;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+
+    .game_card{
+
+    position: relative;
+    background-color: $color-dark-bg;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: 20px;
+        padding: 3px;
+        background: linear-gradient(to bottom, $color-primary 0%, $color-discord 50%, $color-secondary 100%);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    &:hover{
+
+      background:linear-gradient(to bottom, $color-primary 0%, $color-discord 50%, $color-secondary 100%);
+
+      color: $color-white;
+    }
+
+}
+
+// .dotted_grd_border {
+//     border: 2px dotted transparent;
+//     border-image: linear-gradient(to bottom, $color-primary 0%, $color-discord 100%) 1;
+//     border-image-slice: 1;
+// }
+
+.dotted_grd_border {
+  position: relative;
+}
+
+.dotted_grd_border::before,
+.dotted_grd_border::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0 2px,
+    currentColor 2px 2px
+  );
+
+  background-size: 100% 1px;
+  background-repeat: repeat-x;
+}
+
+.dotted_grd_border::before {
+  top: 0;
+  background-image: repeating-linear-gradient(
+    to right,
+    $color-primary 0 4px,
+    transparent 4px 8px
+  );
+}
+
+.dotted_grd_border::after {
+  bottom: 0;
+  background-image: repeating-linear-gradient(
+    to right,
+    $color-discord 0 4px,
+    transparent 4px 8px
+  );
+}
+

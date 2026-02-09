@@ -1,0 +1,48 @@
+
+@use "./fonts";
+@import "mixins";
+@import "colors";
+@import "typography";
+
+button{
+    cursor: pointer;
+}
+.btn-primary{
+
+    outline: none;
+    border:none;
+    background-color: $color-primary;
+    color:$color-white;
+    cursor: pointer;
+
+    &:hover{
+    background: linear-gradient(to right, $color-primary 0%, $color-mid 50%, $color-discord 100%);
+    -webkit-background-clip:border-box;
+    background-clip: border-box;
+    -webkit-text-fill-color:$color-white;
+    color: $color-white;
+    }
+
+    
+}
+
+.btn-primary--rounded {
+    @extend .btn-primary;
+    border-radius: 20px;
+}
+
+.btn-secondary{
+
+     background: linear-gradient(to bottom, $color-primary 0%,  $color-discord 100%);
+     color: $color-white;
+     outline: none;
+
+     
+
+
+}
+
+.btn-secondary--rounded {
+    @extend .btn-secondary;
+    // border-radius: 50px;
+}
