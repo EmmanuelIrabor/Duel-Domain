@@ -8,6 +8,7 @@ $color-secondary: #FF0D5A;
 $color-mid: #8651AC;
 $color-discord:#FB00CD;
 $color-gray:#808089;
+$color-gray2:#808080;
 
 // Background Classes
 .bg-black { background-color: $color-black; }
@@ -76,6 +77,24 @@ $color-gray:#808089;
     
 
     }
+}
+
+.grd_three{
+    background: linear-gradient(to right, $color-primary 73%, $color-secondary 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    
+    &:hover{
+         background: linear-gradient(to right, $color-secondary 73%, $color-primary 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    }
+
+    
 }
 
 // hovers

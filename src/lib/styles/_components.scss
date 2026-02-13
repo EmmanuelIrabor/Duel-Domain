@@ -98,3 +98,35 @@
   );
 }
 
+.disclaimer_popup-wrapper {
+ 
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+}
+
+.disclaimer_popup {
+    position: fixed;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    background-color: $color-dark-bg;
+    border-radius: 0px;
+    border: none;
+    z-index: 9999;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: 0px;
+        padding: 2px;
+        background: linear-gradient(to bottom, $color-primary 0%, $color-discord 50%, $color-secondary 100%);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        pointer-events: none;
+    }
+}

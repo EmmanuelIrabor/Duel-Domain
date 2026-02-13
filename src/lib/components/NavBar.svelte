@@ -59,9 +59,9 @@
 </Popover.Root>
   </div>
   <div class="hidden xl:flex xl:flex-row gap-5 items-center">
-    <button class="btn-primary--rounded text-xs font-bold px-4 py-2 shadow-lg shadow-blue-500/50 ...">
+    <a href="Sign-In" class="btn-primary--rounded text-xs font-bold px-4 py-2 shadow-lg shadow-blue-500/50 ...">
         Sign In
-    </button>
+    </a>
 
     <a href="../" class="text-md text-discord" title="">
        <i class="fa-brands fa-discord"></i>
@@ -138,9 +138,10 @@
         </div>
       {/if}
 
-       <button class="btn-primary--rounded mb-2 text-xs font-bold px-2 py-1 m-0">
+       <a href="Sign-In"
+        class="btn-primary--rounded mb-2 text-xs font-bold px-2 py-1 m-0 text-center">
         Sign In
-    </button>
+      </a>
     </div>
   </DropdownMenu.Content>
 </DropdownMenu.Root>

@@ -17,10 +17,13 @@
    import sega from '$lib/assets/supported/sega.png';
    import namco from '$lib/assets/supported/namco.png';
    import gaming from '$lib/assets/gaming.png';
+   import DisclaimerPopup from '$lib/components/DisclaimerPopup.svelte';
     
      
 </script>
 <NavBar />
+
+<DisclaimerPopup />
 
 <section class="hero-section mt-20 xl:px-10 px-5 relative">
     <div class="absolute top-0 left-0 w-full h-full z-0 layer-blur pointer-events-none">

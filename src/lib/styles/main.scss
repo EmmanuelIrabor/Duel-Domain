@@ -8,5 +8,6 @@
 @use "./footer";
 @use "./home";
 @use "./layout";
-// @use "./form";
+@use "./auth";
+@use "./form";
 @use "./components";

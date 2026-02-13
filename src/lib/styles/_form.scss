@@ -1,0 +1,18 @@
+
+@use "./fonts";
+@import "mixins";
+@import "colors";
+@import "typography";
+
+.auth-input{
+
+     border: 15px solid transparent;
+   border-image: url('../assets/input_border.png') 30 round;
+   outline: none;
+  
+
+    &::placeholder{
+        color:$color-gray2;
+        // font-weight: bold;
+    }
+}

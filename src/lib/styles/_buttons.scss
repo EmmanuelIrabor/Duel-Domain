@@ -46,3 +46,43 @@ button{
     @extend .btn-secondary;
     // border-radius: 50px;
 }
+
+.btn-auth_one{
+
+  
+
+     background: linear-gradient(to right, $color-discord 0%,  $color-primary 100%);
+     color: $color-white;
+     outline: none;
+
+     &:hover{
+
+      background: linear-gradient(to right, $color-primary 0%,  $color-discord 100%);
+     color: $color-white;
+     outline: none;
+
+     }
+
+     
+
+
+}
+
+.btn-auth_two{
+
+     background: linear-gradient(to right, $color-primary 0%,  $color-discord 100%);
+     color: $color-white;
+     outline: none;
+
+     &:hover{
+
+         background: linear-gradient(to right, $color-discord 0%,  $color-primary 100%);
+     color: $color-white;
+     outline: none;
+
+     }
+
+     
+
+
+}
