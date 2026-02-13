@@ -80,14 +80,14 @@ $color-gray2:#808080;
 }
 
 .grd_three{
-    background: linear-gradient(to right, $color-primary 73%, $color-secondary 100%);
+    background: linear-gradient(to right, $color-primary 50%, $color-secondary 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 
     
     &:hover{
-         background: linear-gradient(to right, $color-secondary 73%, $color-primary 100%);
+         background: linear-gradient(to right, $color-secondary 50%, $color-primary 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
