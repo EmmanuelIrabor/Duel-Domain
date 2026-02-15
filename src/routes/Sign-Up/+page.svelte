@@ -1,9 +1,10 @@
 
+
 <script lang="ts">
     import DD from '$lib/assets/DD.png';
 </script>
 
-<div class="xl:px-30 px-5 mt-10">
+<div class="xl:px-30 px-5 mt-10 pb-5">
 
     <div class="flex justify-center">
          <img 
@@ -19,24 +20,23 @@
       <div class="xl:px-20">
 
           <div class="flex justify-center">
-            <p class="text-center font-bold">Sign into your Account</p>
+            <p class="text-center font-bold">Create An Account</p>
 
             
         </div>
 
         <div class="flex flex-col mt-10 ">
 
-                <input class="form-input px-3 py-4" type="text" placeholder="Email or Username">
+                <input class="form-input px-3 py-4" type="text" placeholder="Email">
+                <input class="form-input px-3 py-4 mt-5" type="text" placeholder="Username">
                 <input class="form-input px-3 py-4 mt-5" type="text" placeholder="Password">
 
             </div>
 
-            <div class="mt-4">
-                <a class="grd_one" href="Forgot-Password">Forgot Password ?</a>
-            </div>
+           
 
             <div class="mt-5 flex">
-                <button class="btn-primary_grd-one w-full px-3 py-4 font-bold">Sign in</button>
+                <button class="btn-primary_grd-two w-full px-3 py-4 font-bold">Sign Up</button>
             </div>
 
             
@@ -48,7 +48,7 @@
 
     <div class="mt-5 flex justify-center">
 
-                <a class="font-bold text-center" href="Sign-Up">Don’t Have An Account ? <span class="grd_three">Sign Up</span></a>
+                <a class="font-bold text-center" href="Sign-In">Have An Account ? <span class="grd_three">Sign In</span></a>
 
             </div>
 

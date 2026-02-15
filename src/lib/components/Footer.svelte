@@ -11,7 +11,7 @@
         <img class="" src="/src/lib/assets/payments.png" alt="">
     </div> -->
 
-    <div class="dotted_grd_border xl:px-10 px-5 py-20">
+    <div class="dotted_grd_border xl:px-10 px-5 py-10">
 
         <div class="flex flex-row flex-wrap items-center justify-between gap-5">
        <div class="flex flex-col gap-2 " >

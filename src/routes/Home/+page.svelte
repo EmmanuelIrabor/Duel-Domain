@@ -38,7 +38,7 @@
 
             </div>
              <div class="mt-4 md:hidden flex items-center justify-center order-3">
-                         <a href="../" class="btn-primary--rounded px-4 py-1 mt-3 text-sm flex flex-row gap-1 items-center w-30" title="">Play Now <i class="fa-solid fa-gamepad"></i></a>
+                         <a href="Sign-In" class="btn-primary--rounded px-4 py-1 mt-3 text-sm flex flex-row gap-1 items-center w-30" title="">Play Now <i class="fa-solid fa-gamepad"></i></a>
                     </div>
             
             <div class="col-12 xl:col-6 order-1 md:order-2 xl:flex xl:flex-row xl:justify-center xl:pr-20">
@@ -48,7 +48,7 @@
                     </h1>
                     <p class="text-center md:text-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat amet voluptatibus quidem itaque voluptatum dicta, tempora laborum minima reprehenderit quia porro corporis nulla sequi necessitatibus ducimus repellendus expedita iusto animi.</p>
                     <div class="mt-4 hidden md:block">
-                         <a href="../" class="btn-primary--rounded px-4 py-1 mt-3 text-sm flex flex-row gap-1 items-center w-30" title="">Play Now <i class="fa-solid fa-gamepad"></i></a>
+                         <a href="Sign-In" class="btn-primary--rounded px-4 py-1 mt-3 text-sm flex flex-row gap-1 items-center w-30" title="">Play Now <i class="fa-solid fa-gamepad"></i></a>
                     </div>
                 </div>
             </div>
