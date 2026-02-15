@@ -19,6 +19,15 @@ $color-gray2:#808080;
 .bg-secondary { background-color: $color-secondary; }
 .bg-mid { background-color: $color-mid; }
 .bg-discord{background-color: $color-discord;}
+.bg_grd_one{
+    background: linear-gradient(to right, $color-primary 0%, $color-discord 100%);
+    
+    &:hover{
+
+         background: linear-gradient(to right, $color-discord 0%, $color-primary 100%);
+
+    }
+}
 
 // Text Color Classes
 .text-black { color: $color-black; }

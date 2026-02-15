@@ -32,7 +32,7 @@
 
             <div class="flex flex-row gap-10">
 
-                <a class="text-xs" href="">About Us</a>
+                <a class="text-xs" href="../About">About Us</a>
                 <a class="text-xs" href="">Privacy Policy</a>
 
             </div>
