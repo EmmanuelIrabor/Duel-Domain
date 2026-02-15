@@ -32,14 +32,14 @@
 
    <div class="flex md:flex-row flex-col justify-center gap-5 px-10 py-5 items-center">
     <div class="">
-        <img class="" src={baller_one} alt="Baller One">
+        <img class="hidden md:block" src={baller_one} alt="Baller One">
     </div>
     <div class="col-lg-7 col-12 bg-dark px-5 py-15 text-sm rounded-xl ">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatem itaque assumenda exercitationem nam ratione, debitis cupiditate quod odio fugit ullam enim pariatur architecto repellat autem rem! Labore, perspiciatis commodi.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolores obcaecati porro sint harum blanditiis sed! Temporibus aliquid amet ipsum dolores repudiandae praesentium assumenda, omnis non, exercitationem unde, consequatur ab.
     </div>
     <div>
-        <img  src={baller_two} alt="Baller Two">
+        <img class="hidden md:block"  src={baller_two} alt="Baller Two">
     </div>
 </div>
 
