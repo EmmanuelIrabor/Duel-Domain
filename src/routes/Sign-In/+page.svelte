@@ -1,7 +1,17 @@
 
 <script lang="ts">
     import DD from '$lib/assets/DD.png';
+
+     import { notify } from '$lib/stores/notifyStore';
+  
+  function handleAction() {
+    // notify.success("Account created!");
+    // notify.error("Invalid username or password");
+    // notify.neutral("Please sign in");
+  }
 </script>
+
+
 
 <div class="xl:px-30 px-5 mt-10">
 
@@ -36,7 +46,7 @@
             </div>
 
             <div class="mt-5 flex">
-                <button class="btn-primary_grd-one w-full px-3 py-4 font-bold">Sign in</button>
+                <button onclick={handleAction} class="btn-primary_grd-one w-full px-3 py-4 font-bold">Sign in</button>
             </div>
 
             

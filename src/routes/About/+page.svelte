@@ -49,7 +49,7 @@
 </div>
 <div class="xl:px-30 px-5 mt-20">
     <div class="flex md:flex-row flex-col gap-2 justify-center items-start ">
-        <div class="col-md-5 hidden md:flex"><img class="md:h-96 md:w-80  " src={end_one} alt=""></div>
+        <div class="col-md-5 hidden md:flex"><img class="md:h-96 md:w-64  " src={end_one} alt=""></div>
         <div class="col-md-7 flex flex-col gap-2 mt-2">
            
                 <div class=""><img src={end_two} alt=""></div>

@@ -133,3 +133,50 @@
         pointer-events: none;
     }
 }
+
+.alert-success {
+//   background-color: $color-dark-bg;
+//   border-color: #10b981 !important;
+//   color: $color-white;
+ border-color: $color-primary !important;
+  position: relative;
+    background-color: $color-primary;
+    color:$color-white;
+}
+
+.alert-error {
+//   background-color: $color-dark-bg;
+//   border-color: $color-secondary !important;
+  color: $color-white;
+  position: relative;
+  background: $color-secondary;
+  border-color:$color-secondary !important;
+}
+
+.alert-neutral {
+//   background-color: $color-dark-bg;
+//   border-color: $color-primary !important;
+  color: $color-white;
+  position: relative;
+  background: $color-discord;
+  border-color:$color-discord !important;
+}
+
+ .avatar-wrapper {
+    position: relative;
+    cursor: pointer;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    background: transparent;
+    padding: 0;
+    
+    &:hover {
+      transform: scale(1.1);
+    }
+    
+    &.avatar-selected {
+      
+      border:2px solid $color-discord;
+    }
+  }
