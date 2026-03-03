@@ -180,3 +180,156 @@
       border:2px solid $color-discord;
     }
   }
+
+  .tournamets-game--bubble{
+    background: none;
+    border: 1px solid $color-white;
+    border-radius: 20px;
+    color: $color-white;
+
+    &:hover{
+      background: $color-primary;
+      border: none;
+    }
+  }
+  .tournamets-game--bubble.active {
+  background: $color-purple;
+  border:none;
+}
+.ongoing-tournament-card {
+  border: 15px solid transparent;
+  border-image: url('../assets/ongoing_tournament_border.png') 30 repeat;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.upcoming-tournaments-card{
+
+  border: 15px solid transparent;
+  border-image: url('../assets/upcoming_tournament_border.png') 30;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+
+}
+
+.contact-right-container{
+  
+  border-right: 15px solid transparent;
+  border-image: url('../assets/contact_container.png') 30 repeat;
+}
+
+.tournament-carousel-section {
+    padding: 2rem 0;
+  }
+
+  .scrollbar-custom {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: $color-primary $color-dark-bg;
+    
+    &::-webkit-scrollbar {
+      height: 8px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: $color-dark-bg;
+      border-radius: 10px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: $color-primary;
+      border-radius: 10px;
+      
+      &:hover {
+        background: $color-secondary;
+      }
+    }
+  }
+
+   .challenges-filter--bubble{
+    background: none;
+    border: 1px solid $color-white;
+    border-radius: 20px;
+    color: $color-white;
+
+    &:hover{
+      background: $color-primary;
+      border: none;
+    }
+  }
+  .challenges-filter--bubble.active {
+  background: $color-purple;
+  border:none;
+}
+
+.challenge_card{
+
+    position: relative;
+    background-color: $color-dark-bg;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: 20px;
+        padding: 3px;
+        background: linear-gradient(to bottom, $color-primary 0%, $color-discord 50%, $color-secondary 100%);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        pointer-events: none;
+        z-index: 1;
+    }
+    
+    
+    img{
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      
+    }
+
+   
+
+  
+
+}
+
+.ranking-table-head{
+   border: 1px dotted $color-discord;
+   border-left:none;
+   border-right:none;
+   border-top: none;
+   border-image: url('../assets/dotted_border.png') 30 repeat;
+}
+
+.ranking-table-row{
+
+  border: none;
+
+}
+
+  .rankings-filter--bubble{
+    background: none;
+    border: 1px solid $color-white;
+    border-radius: 20px;
+    color: $color-white;
+
+    &:hover{
+      background: $color-discord;
+      border: none;
+    }
+  }
+  .rankings-filter--bubble.active {
+  background: $color-discord;
+  border:none;
+}

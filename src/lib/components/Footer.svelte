@@ -39,7 +39,7 @@
 
              <div class="flex flex-row gap-10">
 
-                <a class="text-xs" href="">Contact</a>
+                <a class="text-xs" href="Contact/">Contact</a>
                 <a class="text-xs" href="">Terms & Conditions</a>
 
             </div>

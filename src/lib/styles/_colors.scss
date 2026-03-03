@@ -10,6 +10,12 @@ $color-discord:#FB00CD;
 $color-gray:#808089;
 $color-gray2:#808080;
 $color-green:#00FB54;
+$color-purple:#7F06F9;
+$color-charcoal-white:#dcdcdc;
+$color-blue:#0D95FF;
+$color-green-light:#4FF21D;
+$color-yellow:#F2E81D;
+$color-gold:#FFD700;
 
 // Background Classes
 .bg-black { background-color: $color-black; }
@@ -20,6 +26,7 @@ $color-green:#00FB54;
 .bg-secondary { background-color: $color-secondary; }
 .bg-mid { background-color: $color-mid; }
 .bg-discord{background-color: $color-discord;}
+.bg-purple{background-color: $color-purple;}
 .bg_grd_one{
     background: linear-gradient(to right, $color-primary 0%, $color-discord 100%);
     
@@ -45,6 +52,13 @@ $color-green:#00FB54;
 .text-secondary { color: $color-secondary; }
 .text-mid { color: $color-mid; }
 .text-discord{color: $color-discord}
+.text-purple{color: $color-purple}
+.text-charcoal-white{color: $color-charcoal-white;}
+.text-blue{color: $color-blue;}
+.text-green{color: $color-green;}
+.text-green-light{color: $color-green-light;}
+.text-yellow{color: $color-yellow;}
+.text-gold{color:$color-gold;}
 
 // Border Classes
 .border-black { border-color: $color-black; }

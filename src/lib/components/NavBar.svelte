@@ -25,21 +25,21 @@
 
   <div class="hidden xl:flex xl:flex-row gap-10 items-center ml-5">
     <a href="../" class="text-primary font-medium  text-sm">Home</a>
-    <a href="../" class="text-primary font-medium  text-sm">Games</a>
-    <a href="../" class="text-primary font-medium  text-sm">Tournaments</a>
+    <a href="Games/" class="text-primary font-medium  text-sm">Games</a>
+    <a href="Tournaments/" class="text-primary font-medium  text-sm">Tournaments</a>
     <a href="../" class="text-primary font-medium  text-sm">Rewards</a>
      <a href="../" class="text-primary font-medium  text-sm">Community</a>
-      <a href="../" class="text-primary font-medium  text-sm">Contact</a>
+      <a href="Contact/" class="text-primary font-medium  text-sm">Contact</a>
      <Popover.Root>
   <Popover.Trigger class=""><button class="text-primary font-medium text-md" title=""><i class="fa-solid fa-ellipsis"></i></button></Popover.Trigger>
   <Popover.Content class="nav-popover w-50 mt-2 hidden xl:flex" portalProps={{}}><div class="flex flex-col gap-2">
     <ul class="p-0 m-0">
         <li>
-            <a href="../" class="grd_one text-sm">Rankings</a>
+            <a href="Rankings/" class="grd_one text-sm">Rankings</a>
         </li>
 
         <li>
-            <a href="../" class="grd_one text-sm">Challenges</a>
+            <a href="Challenges/" class="grd_one text-sm">Challenges</a>
         </li>
 
         <li>
@@ -88,11 +88,11 @@
   <DropdownMenu.Content class="w-66 mx-5 nav-popover mt-5 xl:hidden" portalProps={{}}>
     <div class="flex flex-col gap-2 px-3 py-2">
       <a href="../" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Home</a>
-      <a href="../" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Games</a>
-      <a href="../" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Tournaments</a>
+      <a href="Games/" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Games</a>
+      <a href="Tournaments/" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Tournaments</a>
       <a href="../" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Rewards</a>
       <a href="../" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Community</a>
-      <a href="../" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Contact</a>
+      <a href="Contact/" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Contact</a>
 
       
    
@@ -116,11 +116,11 @@
           
             <ul class="p-0 m-0">
         <li>
-            <a href="../" class="grd_one">Rankings</a>
+            <a href="Rankings/" class="grd_one">Rankings</a>
         </li>
 
         <li>
-            <a href="../" class="grd_one">Challenges</a>
+            <a href="Challenges/" class="grd_one">Challenges</a>
         </li>
 
         <li>

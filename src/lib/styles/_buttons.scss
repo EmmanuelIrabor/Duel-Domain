@@ -90,3 +90,14 @@ button{
 .round-btn{
      border-radius: 20px;
 }
+
+.tournament-register-btn{
+    background: $color-purple;
+    color: $color-white;
+
+    &--closed{
+        background-color: $color-gray2;
+        color: $color-white;
+        pointer-events: none;
+    }
+}

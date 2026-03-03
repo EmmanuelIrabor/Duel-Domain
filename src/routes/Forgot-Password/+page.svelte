@@ -35,7 +35,7 @@
             
 
             <div class="mt-5 flex">
-                <button class="btn-primary w-full px-3 py-4 font-bold">Change Password</button>
+                <button class="btn-primary w-full px-3 py-6 font-bold">Change Password</button>
             </div>
 
             
