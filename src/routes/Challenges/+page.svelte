@@ -98,7 +98,7 @@
      link="../"
      image="{efootball}"
      game="efootball"
-     challenge="goal icon"
+     challenge="Goal icon"
      host="Enigma"
      reward="$500"
      duration="2hrs 45min"

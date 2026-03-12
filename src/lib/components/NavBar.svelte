@@ -27,8 +27,8 @@
     <a href="../" class="text-primary font-medium  text-sm">Home</a>
     <a href="Games/" class="text-primary font-medium  text-sm">Games</a>
     <a href="Tournaments/" class="text-primary font-medium  text-sm">Tournaments</a>
-    <a href="../" class="text-primary font-medium  text-sm">Rewards</a>
-     <a href="../" class="text-primary font-medium  text-sm">Community</a>
+    <a href="Rewards/" class="text-primary font-medium  text-sm">Rewards</a>
+     <a href="Community/" class="text-primary font-medium  text-sm">Community</a>
       <a href="Contact/" class="text-primary font-medium  text-sm">Contact</a>
      <Popover.Root>
   <Popover.Trigger class=""><button class="text-primary font-medium text-md" title=""><i class="fa-solid fa-ellipsis"></i></button></Popover.Trigger>
@@ -50,7 +50,7 @@
             <a href="../" class="grd_one text-sm">P2P-Multiplayer</a>
         </li>
         <li>
-            <a href="../" class="grd_one text-sm">Host a Challenge</a>
+            <a href="Challenges/" class="grd_one text-sm">Host a Challenge</a>
         </li>
 
     </ul>
@@ -90,8 +90,8 @@
       <a href="../" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Home</a>
       <a href="Games/" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Games</a>
       <a href="Tournaments/" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Tournaments</a>
-      <a href="../" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Rewards</a>
-      <a href="../" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Community</a>
+      <a href="Rewards/" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Rewards</a>
+      <a href="Community/" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Community</a>
       <a href="Contact/" class="text-primary font-medium text-sm bg-transparent outline-none border-none no-underline">Contact</a>
 
       
@@ -131,7 +131,7 @@
             <a href="../" class="grd_one">P2P-Multiplayer</a>
         </li>
         <li>
-            <a href="../" class="grd_one">Host a Challenge</a>
+            <a href="Challenges/" class="grd_one">Host a Challenge</a>
         </li>
 
     </ul>

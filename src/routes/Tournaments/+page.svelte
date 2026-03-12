@@ -188,7 +188,7 @@
     </div>
   {:else}
     
-    <div class="overflow-x-auto scrollbar-custom px-5 pb-5">
+    <div class="overflow-x-auto px-5 pb-5" style="-ms-overflow-style: none; scrollbar-width: none;">
       <div class="flex gap-5 w-max">
         {#each tournaments as tournament, index (index)}
           <div class="w-[85vw] md:w-[45vw] flex-shrink-0">

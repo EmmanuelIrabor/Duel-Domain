@@ -77,12 +77,12 @@
   
   <Table.Header class="">
     <Table.Row class="ranking-table-head">
-     <Table.Head class="">Count</Table.Head>
-      <Table.Head class="text-primary">User</Table.Head>
-      <Table.Head class="text-primary">Wins</Table.Head>
-      <Table.Head class="text-primary">Losses</Table.Head>
-      <Table.Head class="text-primary">Earnings</Table.Head>
-      <Table.Head class="text-primary">More</Table.Head>
+     <Table.Head class="">0</Table.Head>
+      <Table.Head class="text-primary font-bold">User</Table.Head>
+      <Table.Head class="text-primary font-bold">Wins</Table.Head>
+      <Table.Head class="text-primary font-bold">Losses</Table.Head>
+      <Table.Head class="text-primary font-bold">Earnings</Table.Head>
+      <!-- <Table.Head class="text-primary">More</Table.Head> -->
     </Table.Row>
   </Table.Header>
   <Table.Body class="">
@@ -99,7 +99,7 @@
         <Table.Cell class="text-green-light text-xs">{user.wins}</Table.Cell>
         <Table.Cell class="text-secondary text-xs">{user.losses}</Table.Cell>
         <Table.Cell class="text-gold text-xs">${user.earnings}</Table.Cell>
-        <Table.Cell class="text-xs"><a href="{user.link}" title="more"><i class="fa-solid fa-ellipsis"></i></a></Table.Cell>
+        <!-- <Table.Cell class="text-xs"><a href="{user.link}" title="more"><i class="fa-solid fa-ellipsis"></i></a></Table.Cell> -->
        
       </Table.Row>
     {/each}
@@ -109,3 +109,5 @@
 </div>
     
 </div>
+
+<Footer/>

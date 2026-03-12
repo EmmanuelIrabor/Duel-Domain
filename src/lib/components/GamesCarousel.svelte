@@ -178,7 +178,7 @@
     {/if}
   </div>
  <div class="mt-10 col-md-7 col-xl-6">
-     <a class="text-thin" href="../">Can't find your game or battle ground of choice here , feel free to make a request, <span class="grd_two">Contact us here</span></a>
+     <a class="text-thin" href="../Contact/">Can't find your game or battle ground of choice here , feel free to make a request, <span class="grd_two">Contact us here</span></a>
 
  </div>
 </section>
