@@ -49,3 +49,29 @@
     }
 
 }
+
+.dashboard_search{
+
+     background: $color-dark-bg;
+    border-radius: 20px;
+
+    input{
+
+    outline:none;
+    border: none;
+    
+
+
+     &:placeholder{
+        color:$color-white;
+    }
+
+    &:focus{
+        outline: none;
+        border: none;
+    }
+
+    }
+
+
+}

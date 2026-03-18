@@ -52,6 +52,11 @@
         <li>
             <a href="Challenges/" class="grd_one text-sm">Host a Challenge</a>
         </li>
+        <li>
+
+           <a href="About/#faqs" class="grd_one text-sm">Faqs</a>
+
+        </li>
 
     </ul>
 
@@ -132,6 +137,12 @@
         </li>
         <li>
             <a href="Challenges/" class="grd_one">Host a Challenge</a>
+        </li>
+
+         <li>
+
+           <a href="About/#faqs" class="grd_one text-sm">Faqs</a>
+
         </li>
 
     </ul>

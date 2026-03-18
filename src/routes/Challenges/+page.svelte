@@ -22,13 +22,7 @@
     </div>
 
     <div class="mt-10 w-full">
-     <div class="flex items-center justify-center mt-5 gap-2 search-input__challenges px-4 py-3">
-
-    <i class="fa-solid fa-magnifying-glass text-xs"></i>
-    <input class="text-xs w-full" type="text" placeholder="Search for challenges , games or hosts">
-  
-
-</div>
+     crea
 
     </div>
 

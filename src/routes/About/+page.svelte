@@ -7,6 +7,7 @@
     import Footer from "$lib/components/Footer.svelte";
     import end_one from "$lib/assets/end_one.png"
     import end_two from "$lib/assets/end_two.png"
+    import * as Accordion from "$lib/components/ui/accordion/index.js";
 </script>
 
 <NavBar/>
@@ -60,4 +61,63 @@
 
     </div>
 </div>
+
+<section class="faqs xl:px-30 px-5 mt-20" id="faqs">
+
+
+    <h1 class="text-center text-2xl font-bold">
+
+        FAQS
+        
+    </h1>
+   
+
+    <div class="flex justify-center mt-5">
+       <Accordion.Root type="single" class="w-full sm:max-w-[70%]" value="item-1">
+  <Accordion.Item class value="item-1">
+    <Accordion.Trigger class=""><span class="grd_one">Product Information</span></Accordion.Trigger>
+    <Accordion.Content class="flex flex-col gap-4 text-balance grd_one border-0">
+      <p class="text-xs">
+        Our flagship product combines cutting-edge technology with sleek design.
+        Built with premium materials, it offers unparalleled performance and
+        reliability.
+      </p>
+      <p class="text-xs">
+        Key features include advanced processing capabilities, and an intuitive
+        user interface designed for both beginners and experts.
+      </p>
+    </Accordion.Content>
+  </Accordion.Item>
+  <Accordion.Item class value="item-2">
+    <Accordion.Trigger class=""><span class="grd_one">Shipping Details</span></Accordion.Trigger>
+    <Accordion.Content class="flex flex-col gap-4 text-balance grd_two">
+      <p class="text-xs">
+        We offer worldwide shipping through trusted courier partners. Standard
+        delivery takes 3-5 business days, while express shipping ensures
+        delivery within 1-2 business days.
+      </p>
+      <p class="text-xs">
+        All orders are carefully packaged and fully insured. Track your shipment
+        in real-time through our dedicated tracking portal.
+      </p>
+    </Accordion.Content>
+  </Accordion.Item>
+  <Accordion.Item class value="item-3">
+    <Accordion.Trigger class=""><span class="grd_one">Return Policy</span></Accordion.Trigger>
+    <Accordion.Content class="flex flex-col gap-4 text-balance grd_one">
+      <p class="text-xs">
+        We stand behind our products with a comprehensive 30-day return policy.
+        If you&apos;re not completely satisfied, simply return the item in its
+        original condition.
+      </p>
+      <p class="text-xs">
+        Our hassle-free return process includes free return shipping and full
+        refunds processed within 48 hours of receiving the returned item.
+      </p>
+    </Accordion.Content>
+  </Accordion.Item>
+</Accordion.Root>
+
+    </div>
+</section>
 <Footer/>

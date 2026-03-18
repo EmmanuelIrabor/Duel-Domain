@@ -387,3 +387,62 @@
 
 
 }
+
+.dashboard-navitem{
+
+  color: $color-white;
+
+  // &:hover{
+
+  //   background: linear-gradient(to right, $color-primary 50%, $color-discord 70%);
+  //        -webkit-background-clip: text;
+  //   background-clip: text;
+  //   -webkit-text-fill-color: transparent;
+  // }
+
+  &:hover{
+
+    color:$color-gray2;
+  }
+
+
+ 
+}
+.dashboard-navitem.active{
+
+  color: $color-white;
+
+   background: linear-gradient(to right, $color-primary 0%, $color-discord 100%);
+    
+    &:hover{
+
+         background: linear-gradient(to right, $color-discord 0%, $color-primary 100%);
+         color:$color-white;
+
+    }
+  }
+
+  .top-card--dashboard{
+
+   background: linear-gradient(to right, $color-primary 0%, $color-discord 100%);
+    
+    &:hover{
+
+         background: linear-gradient(to right, $color-discord 0%, $color-primary 100%);
+
+    }
+
+    cursor: pointer;
+  }
+
+  .top-card--balance{
+    background: transparent;
+    border:5px solid $color-primary;
+  }
+
+  .dashboard-game-card{
+    background-position: center;
+    background-repeat:no-repeat; 
+    background-size:cover;
+
+  }
