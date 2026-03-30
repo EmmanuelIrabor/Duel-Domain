@@ -1,5 +1,6 @@
 <script lang="ts">
   import logo from '$lib/assets/logo.png';
+  import DashBoardSideBar from '$lib/components/DashBoardSideBar.svelte';
   import DashboardNavItem from '$lib/components/ui/DashboardNavItem.svelte';
   import DashboardCard from '$lib/components/DashboardCard.svelte';
   import dash_cod from "$lib/assets/dash_cod.jpg"
@@ -7,6 +8,10 @@
   import dash_ff from "$lib/assets/dash_ff.jpg";
   import dash_mk from "$lib/assets/dash_mk.jpg";
   import DashboardGameCard from '$lib/components/ui/DashboardGameCard.svelte';
+  import OngoingMatchCard from '$lib/components/ui/OngoingMatchCard.svelte';
+  import DashBoardReward from '$lib/components/ui/DashBoardReward.svelte';
+  import DashBoardMobileNavBar from '$lib/components/DashBoardMobileNavBar.svelte';
+  import DashBoardMobileNavItem from '$lib/components/ui/DashBoardMobileNavItem.svelte';
 </script>
 
 <div class="px-5 flex flex-row">
@@ -25,32 +30,7 @@
       </div>
 
       <div class="mt-5">
-        <ul class="list-style-none p-0 m-0">
-          <li>
-            <DashboardNavItem active={true} link={'../'} icon={'fa-solid fa-cubes'} name={'DashBoard'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-gamepad'} name={'Games'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-wallet'} name={'Stake'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-burst'} name={'Matches'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-ranking-star'} name={'Tournaments'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-circle-nodes'} name={'Challenges'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-regular fa-chess-king'} name={'Rankings'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-timeline'} name={'History'}/>
-          </li>
-        </ul>
+       <DashBoardSideBar/>
       </div>
     </div>
 
@@ -173,54 +153,10 @@
         </div>
 
         <div class="flex flex-row items-center justify-center w-full gap-2">
+      
+       <OngoingMatchCard match_id={'khs56'} timestamp={'0:33'} player_one="Liam" player_one_wins={'11'} player_two={'Amaya'} player_two_wins={'10'} player_one_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} player_two_avatar={'https://api.dicebear.com/9.x/big-smile/svg?seed=Amaya'} match_link={'../'}/>
 
-      <div class="w-full">
-        <div class="w-full">
-          <div class="bg-white/10 backdrop-blur-md mt-1 rounded-md py-5 px-2">
-            <div class="flex flex-row justify-between items-center">
-              <div class="flex flex-col justify-center items-center">
-                <p class="text-xs text-purple">ID #881we</p>
-                <img class="w-5 h-5 md:w-10 md:h-10" src="https://api.dicebear.com/9.x/bottts/svg?seed=Avery" alt="">
-                <p class="text-xs">Jude</p>
-                <p class="text-xs mt-2">12</p>
-              </div>
-              <div class="flex flex-col">VS</div>
-              <div class="flex flex-col justify-center items-center">
-                <p class="text-xs text-charcoal-white">00:24</p>
-                <img class="w-5 h-5 md:w-10 md:h-10" src="https://api.dicebear.com/9.x/big-smile/svg?seed=Amaya" alt="">
-                <p class="text-xs">Poirot</p>
-                <p class="text-xs mt-2">12</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <button class="btn-primary rounded-md px-2 py-1 texts-xs w-full mt-1">Spectate</button>
-      </div>
-
-    <div class="w-full">
-          <div class="mt-1 w-full">
-          <div class="bg-white/10 backdrop-blur-md mt-1 rounded-md py-5 px-2">
-            <div class="flex flex-row justify-between items-center">
-              <div class="flex flex-col justify-center items-center">
-                <p class="text-xs text-secondary">ID #881we</p>
-                <img class="w-5 h-5 md:w-10 md:h-10" src="https://api.dicebear.com/9.x/adventurer/svg?seed=Liam" alt="">
-                <p class="text-xs">Liam</p>
-                <p class="text-xs mt-2">12</p>
-              </div>
-              <div class="flex flex-col">VS</div>
-              <div class="flex flex-col justify-center items-center">
-                <p class="text-xs text-charcoal-white">23:19</p>
-                <img class="w-5 h-5 md:w-10 md:h-10" src="https://api.dicebear.com/9.x/adventurer/svg?seed=Amaya" alt="">
-                <p class="text-xs">Amaya</p>
-                <p class="text-xs mt-2">12</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <button class="btn-primary rounded-md px-2 py-1 texts-xs w-full mt-1">Spectate</button>
-    </div>
+       <OngoingMatchCard match_id={'khs56'} timestamp={'0:33'} player_one="Liam" player_one_wins={'11'} player_two={'Amaya'} player_two_wins={'10'} player_one_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} player_two_avatar={'https://api.dicebear.com/9.x/big-smile/svg?seed=Amaya'} match_link={'../'}/>
 
           
          
@@ -237,90 +173,13 @@
 
                 </p>
 
-            <div class="dashboard_reward flex flex-row justify-between items-center mt-2">
+          <DashBoardReward reward={'$15 DUELS'} winner={'Enigma'} loser={'David'}/>
 
-                <div class="text-primary bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs">
-                    $500 duels
-                </div>
+          <DashBoardReward reward={'$20 DUELS'} winner={'Swish'} loser={'Akins'}/>
 
+          <DashBoardReward reward={'$500 DUELS'} winner={'Andrea'} loser={'Esther'}/>
 
-                <div class="text-green bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs">
-                    Amaya
-                </div>
-
-                <div>
-                    vs
-                </div>
-
-                <div class="text-secondary bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs" >
-                       dave 
-                </div>
-
-            </div>
-
-             <div class="dashboard_reward flex flex-row justify-between items-center mt-2">
-
-                <div class="text-primary bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs">
-                    $500 duels
-                </div>
-
-
-                <div class="text-green bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs">
-                    Amaya
-                </div>
-
-                <div>
-                    vs
-                </div>
-
-                <div class="text-secondary bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs" >
-                       dave 
-                </div>
-
-            </div>
-
-
-             <div class="dashboard_reward flex flex-row justify-between items-center mt-2">
-
-                <div class="text-primary bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs">
-                    $500 duels
-                </div>
-
-
-                <div class="text-green bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs">
-                    Amaya
-                </div>
-
-                <div>
-                    vs
-                </div>
-
-                <div class="text-secondary bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs" >
-                       dave 
-                </div>
-
-            </div>
-
-             <div class="dashboard_reward flex flex-row justify-between items-center mt-2">
-
-                <div class="text-primary bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs">
-                    $500 duels
-                </div>
-
-
-                <div class="text-green bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs">
-                    Amaya
-                </div>
-
-                <div>
-                    vs
-                </div>
-
-                <div class="text-secondary bg-white/10 backdrop-blur-md px-2 py-1 rounded-full text-xs" >
-                       dave 
-                </div>
-
-            </div>
+            
 
 
 
@@ -350,49 +209,9 @@
           <p>Ongoing Matches</p>
         </div>
 
-        <div class="mt-2">
-          <div class="bg-white/10 backdrop-blur-md mt-1 rounded-md py-5 px-2">
-            <div class="flex flex-row justify-between items-center">
-              <div class="flex flex-col justify-center items-center">
-                <p class="text-xs text-purple">ID #881we</p>
-                <img class="w-5 h-5 md:w-10 md:h-10" src="https://api.dicebear.com/9.x/bottts/svg?seed=Avery" alt="">
-                <p class="text-xs">Jude</p>
-                <p class="text-xs mt-2">12</p>
-              </div>
-              <div class="flex flex-col">VS</div>
-              <div class="flex flex-col justify-center items-center">
-                <p class="text-xs text-charcoal-white">00:24</p>
-                <img class="w-5 h-5 md:w-10 md:h-10" src="https://api.dicebear.com/9.x/big-smile/svg?seed=Amaya" alt="">
-                <p class="text-xs">Poirot</p>
-                <p class="text-xs mt-2">12</p>
-              </div>
-            </div>
-          </div>
-        </div>
+       <OngoingMatchCard match_id={'khs56'} timestamp={'0:33'} player_one="Liam" player_one_wins={'11'} player_two={'Amaya'} player_two_wins={'10'} player_one_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} player_two_avatar={'https://api.dicebear.com/9.x/big-smile/svg?seed=Amaya'} match_link={'../'}/>
 
-        <button class="btn-primary rounded-md px-2 py-1 texts-xs w-full mt-1">Spectate</button>
-
-        <div class="mt-1">
-          <div class="bg-white/10 backdrop-blur-md mt-1 rounded-md py-5 px-2">
-            <div class="flex flex-row justify-between items-center">
-              <div class="flex flex-col justify-center items-center">
-                <p class="text-xs text-secondary">ID #881we</p>
-                <img class="w-5 h-5 md:w-10 md:h-10" src="https://api.dicebear.com/9.x/adventurer/svg?seed=Liam" alt="">
-                <p class="text-xs">Liam</p>
-                <p class="text-xs mt-2">12</p>
-              </div>
-              <div class="flex flex-col">VS</div>
-              <div class="flex flex-col justify-center items-center">
-                <p class="text-xs text-charcoal-white">23:19</p>
-                <img class="w-5 h-5 md:w-10 md:h-10" src="https://api.dicebear.com/9.x/adventurer/svg?seed=Amaya" alt="">
-                <p class="text-xs">Amaya</p>
-                <p class="text-xs mt-2">12</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <button class="btn-primary rounded-md px-2 py-1 texts-xs w-full mt-1">Spectate</button>
+       <OngoingMatchCard match_id={'khs56'} timestamp={'0:33'} player_one="Liam" player_one_wins={'11'} player_two={'Amaya'} player_two_wins={'10'} player_one_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} player_two_avatar={'https://api.dicebear.com/9.x/big-smile/svg?seed=Amaya'} match_link={'../'}/>
 
       </div>
 
@@ -402,42 +221,6 @@
 
 </div>
 
-
-<div class="Dashboard-mobile-navbar w-full px-2 py-4 fixed bottom-0 bg-black xl:hidden">
-
-  <div class="flex flex-row gap-2 justify-around items-center">
-
-    <div>
-      <a class="flex flex-col text-xs items-center" href="../" title="nav-item"><i class="fa-solid fa-house grd_one"> </i><span class="grd_one text-xs">Home</span></a>
-    </div>
-
-    <div>
-      <a class="flex flex-col text-xs items-center" href="../" title="nav-item"><i class="fa-solid fa-gamepad text-gray"></i> <span class="text-gray text-xs">Games</span></a>
-    </div>
-
-    <div>
-        <a class="flex flex-col text-xs items-center"  href="../" title="stake" >
-
-          <div class="btn-secondary rounded-full text-xs px-2 py-2 flex flex-row items-center gap-1" >
-
-             <i class="fa-solid fa-wallet"></i>
-            
-          </div>
-
-          <span class="font-bold text-xs">Stake</span>
-           
-        </a>
-    </div>
-
-    <div>
-      <a class="flex flex-col text-xs items-center" href="../" title="nav-item"><i class="fa-solid fa-burst text-gray"></i><span class="text-gray text-xs">Matches</span></a>
-    </div>
-
-    <div>
-      <a  class="flex flex-col text-xs items-center" href="../" title="nav-item"><i class="fa-solid fa-ellipsis text-gray"></i><span class="text-gray text-xs">More</span></a>
-    </div>
-
-  </div>
+<DashBoardMobileNavBar/>
 
 
-</div>

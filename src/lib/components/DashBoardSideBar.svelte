@@ -2,34 +2,43 @@
 
 <script lang="ts">
     import DashboardNavItem from "./ui/DashboardNavItem.svelte";
-    // export let navitem:boolean;
+
+    export let active: string | number = 'DashBoard';
+
+    const navItems = [
+        { name: 'DashBoard', icon: 'fa-solid fa-cubes',        link: '../' },
+        { name: 'Games',     icon: 'fa-solid fa-gamepad',      link: '../' },
+        { name: 'Stake',     icon: 'fa-solid fa-wallet',       link: '../' },
+        { name: 'Matches',   icon: 'fa-solid fa-burst',        link: '../' },
+        { name: 'Tournaments', icon: 'fa-solid fa-ranking-star', link: '../' },
+        { name: 'Challenges', icon: 'fa-solid fa-circle-nodes', link: '../' },
+        { name: 'Rankings',  icon: 'fa-regular fa-chess-king', link: '../' },
+        { name: 'History',   icon: 'fa-solid fa-timeline',     link: '../' },
+    ];
+
+    function navitemActive(item: { name: string }, index: number): boolean {
+        if (typeof active === 'number') {
+            return active === index + 1;
+        }
+        const parsed = parseInt(active);
+        if (!isNaN(parsed)) {
+            return parsed === index + 1;
+        }
+        return active.toLowerCase() === item.name.toLowerCase();
+    }
 </script>
 
 <div>
     <ul class="list-style-none p-0 m-0">
-          <li>
-            <DashboardNavItem active={true} link={'../'} icon={'fa-solid fa-cubes'} name={'DashBoard'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-gamepad'} name={'Games'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-wallet'} name={'Stake'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-burst'} name={'Matches'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-ranking-star'} name={'Tournaments'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-circle-nodes'} name={'Challenges'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-regular fa-chess-king'} name={'Rankings'}/>
-          </li>
-          <li class="mt-2">
-            <DashboardNavItem active={false} link={'../'} icon={'fa-solid fa-timeline'} name={'History'}/>
-          </li>
-        </ul>
+        {#each navItems as item, i}
+            <li class={i > 0 ? 'mt-2' : ''}>
+                <DashboardNavItem
+                    active={navitemActive(item, i)}
+                    link={item.link}
+                    icon={item.icon}
+                    name={item.name}
+                />
+            </li>
+        {/each}
+    </ul>
 </div>
