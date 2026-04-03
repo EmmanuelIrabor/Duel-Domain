@@ -95,7 +95,7 @@
 
     </div>
 
-    <div class="dashboard_search flex items-center justify-center w-75 gap-2 px-4 py-2 mt-1">
+    <div class="dashboard_search flex items-center justify-center w-full gap-2 px-4 py-2 mt-1">
         <i class="fa-solid fa-magnifying-glass text-xs text-gray"></i>
         <input class="text-xs w-full" type="text" placeholder="Search for challenges , games or hosts">
       </div>

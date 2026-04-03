@@ -446,3 +446,72 @@
     background-size:cover;
 
   }
+
+  .dashboard-platform-select--card{
+
+    border: 1px solid $color-white;
+    color: $color-white;
+
+
+    
+
+     &:hover{
+         background: linear-gradient(to right, $color-discord 0%, $color-primary 100%);
+         -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+     }
+
+
+  }
+
+  .dashboard-platform-select--card.active{
+
+     background: linear-gradient(to right, $color-primary 0%, $color-discord 100%);
+    -webkit-background-clip: text;
+    background-clip: border-box;
+    -webkit-text-fill-color: $color-white;
+    border: none;
+
+    &:hover{
+         background: linear-gradient(to right, $color-discord 0%, $color-primary 100%);
+         -webkit-background-clip: text;
+    background-clip: border-box;
+    -webkit-text-fill-color: $color-white;
+    
+
+    }
+
+
+  }
+
+  .platform-game-card{
+
+   
+    border-radius: 0.5rem;
+    background: $color-dark-bg;
+    // border: 1px dotted $color-primary;
+
+    &:hover{
+
+       background: linear-gradient(to right, $color-discord 0%, $color-primary 100%);
+         -webkit-background-clip: text;
+    background-clip: border-box;
+    -webkit-text-fill-color: $color-white;
+    border: 2px solid $color-primary;
+
+
+    }
+    
+
+    
+
+    
+  }
+  .platform-game-card--img{
+    background-position: center;
+    background-repeat:no-repeat; 
+    background-size:cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius:0.5rem;
+  }

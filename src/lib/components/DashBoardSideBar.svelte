@@ -6,8 +6,8 @@
     export let active: string | number = 'DashBoard';
 
     const navItems = [
-        { name: 'DashBoard', icon: 'fa-solid fa-cubes',        link: '../' },
-        { name: 'Games',     icon: 'fa-solid fa-gamepad',      link: '../' },
+        { name: 'DashBoard', icon: 'fa-solid fa-cubes',        link: '../Dashboard' },
+        { name: 'Games',     icon: 'fa-solid fa-gamepad',      link: 'Dashboard/Games' },
         { name: 'Stake',     icon: 'fa-solid fa-wallet',       link: '../' },
         { name: 'Matches',   icon: 'fa-solid fa-burst',        link: '../' },
         { name: 'Tournaments', icon: 'fa-solid fa-ranking-star', link: '../' },
