@@ -135,13 +135,18 @@
 
         <div class="mt-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
 
-            <PlatformGameCard link={'../'} image={dash_cod} duel_count={'130'} platform={'fa-solid fa-mobile'} title={'COD Mobile'} tags={'Action. BattleRoyale'}/>
-            <PlatformGameCard link={'../'} image={dash_football} duel_count={'80'} platform={'fa-solid fa-mobile'} title={'E-Football'} tags={'Sports. Simulation'}/>
-            <PlatformGameCard link={'../'} image={dash_mk} duel_count={'60'} platform={'fa-solid fa-mobile'} title={'Mortal Kombat'} tags={'Combat. PVP'}/>
-            <PlatformGameCard link={'../'} image={dash_ff} duel_count={'200'} platform={'fa-solid fa-mobile'} title={'Free Fire'} tags={'BattleRoyale. FPS'}/>
+            <PlatformGameCard link={'../'} image={dash_cod} platform={'fa-solid fa-mobile'} duel_count={'200'} category={'mmorpg'} tag_color={'text-purple'} title={'Call of Duty Mobile'}/>
+              <PlatformGameCard link={'../'} image={dash_football} platform={'fa-solid fa-mobile'} duel_count={'196'} category={'mmo'} tag_color={'text-green'} title={'Efootball'}/>
+          
+
+          
+              <PlatformGameCard link={'../'} image={dash_ff} platform={'fa-solid fa-mobile'} duel_count={'180'} category={'mmorpg'} tag_color={'text-primary'} title={'Free Fire'}/>
+              <PlatformGameCard link={'../'} image={dash_mk} platform={'fa-solid fa-mobile'} duel_count={'130'} category={'mmo'} tag_color={'text-secondary'} title={'Mortal Kombat'}/>
+
+              </div>
 
 
-        </div>
+       
 
         <div class="flex flex-row items-center justify-end mt-10 mb-30 md:mb-5">
            <button class="btn-secondary rounded-full text-xs px-2 py-2 flex flex-row items-center gap-1" title="Add Games">

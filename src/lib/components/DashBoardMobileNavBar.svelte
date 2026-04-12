@@ -5,9 +5,9 @@
 
     const navItems = [
         { name: 'Home',    icon: 'fa-solid fa-house',    link: '../Dashboard', slot: 'nav' },
-        { name: 'Games',   icon: 'fa-solid fa-gamepad',  link: 'Dashboard/Games/', slot: 'nav' },
+        { name: 'Games',   icon: 'fa-solid fa-gamepad',  link: '../Dashboard/Games/', slot: 'nav' },
         { name: 'Stake',   icon: 'fa-solid fa-wallet',   link: '../', slot: 'centered' },
-        { name: 'Matches', icon: 'fa-solid fa-burst',    link: '../', slot: 'nav' },
+        { name: 'Matches', icon: 'fa-solid fa-burst',    link: '../Dashboard/Matches', slot: 'nav' },
         { name: 'More',    icon: 'fa-solid fa-ellipsis', link: '../', slot: 'nav' },
     ];
 

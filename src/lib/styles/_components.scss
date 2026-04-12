@@ -485,33 +485,36 @@
 
   }
 
-  .platform-game-card{
-
-   
-    border-radius: 0.5rem;
-    background: $color-dark-bg;
-    // border: 1px dotted $color-primary;
-
-    &:hover{
-
-       background: linear-gradient(to right, $color-discord 0%, $color-primary 100%);
-         -webkit-background-clip: text;
-    background-clip: border-box;
-    -webkit-text-fill-color: $color-white;
-    border: 2px solid $color-primary;
-
-
-    }
-    
-
-    
-
-    
-  }
-  .platform-game-card--img{
+ .platform-game-card{
     background-position: center;
     background-repeat:no-repeat; 
     background-size:cover;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius:0.5rem;
+
+  }
+  
+
+  .match-game-select{
+
+      border: 10px solid transparent;
+  border-image: url('../assets/upcoming_tournament_border.png') 30;
+    background-color: $color-black;
+    color: white;
+    outline: none;
+  }
+  .match-game-item{
+    background: none !important;
+    color: $color-white !important;
+    cursor: pointer;
+
+    &:hover{
+       background: linear-gradient(to right, $color-discord 0%, $color-primary 100%) !important;
+         color:$color-white; 
+    }
+  }
+
+  .match-card{
+    background-position: center;
+    background-repeat:no-repeat; 
+    background-size:cover;
+
   }

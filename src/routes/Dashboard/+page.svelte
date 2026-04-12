@@ -165,7 +165,7 @@
 
           </div>
 
-          <div class="mt-10 mb-10 dashboard-rewards">
+          <div class="mt-10 mb-30 dashboard-rewards">
 
            <p class="text-lg font-bold">
 
