@@ -518,3 +518,31 @@
     background-size:cover;
 
   }
+
+  .duel-price-card{
+
+    cursor: pointer;
+    background: $color-dark-bg;
+
+    &:hover{
+      background: none;
+    }
+
+
+  }
+
+  .duel-price-card.active{
+
+          background: linear-gradient(to right, $color-primary 0%, $color-discord 100%) !important;
+         color:$color-white; 
+         color:$color-white; 
+        //  border: 1px solid $color-white;
+
+
+          &:hover{
+       background: linear-gradient(to right, $color-discord 0%, $color-primary 100%) !important;
+         color:$color-white; 
+    }
+
+
+  }

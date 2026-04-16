@@ -70,9 +70,9 @@
           <p class="font-bold text-xs">0 $DUEL</p>
         </div>
         <div>
-          <button class="btn-secondary rounded-full text-xs px-2 py-2 flex flex-row items-center gap-1" title="Add Duels">
+           <a href="Add-Duels" class="btn-secondary rounded-full text-xs px-2 py-2 flex flex-row items-center gap-1" title="Add Duels">
             <i class="fa-solid fa-plus"></i>
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -99,9 +99,9 @@
           <p class="font-bold text-xs">0 $DUEL</p>
         </div>
         <div>
-          <button class="btn-secondary rounded-full text-xs px-2 py-2 flex flex-row items-center gap-1" title="Add Duels">
-            <i class="fa-solid fa-plus text-xs"></i>
-          </button>
+            <a href="Add-Duels" class="btn-secondary rounded-full text-xs px-2 py-2 flex flex-row items-center gap-1" title="Add Duels">
+            <i class="fa-solid fa-plus"></i>
+          </a>
         </div>
       </div>
 
@@ -188,8 +188,8 @@
         </div>
 
         <div class="mt-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full mb-30 md:mb-0">
-        <MatchCard link={'../'} image={dash_cod} player_one_name={'Enigma'} player_one_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} player_two_name={'James'} player_two_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} reward={'500'} time={'03:22'}/>
-        <MatchCard link={'../'} image={dash_football} player_one_name={'Enigma'} player_one_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} player_two_name={'James'} player_two_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} reward={'500'} time={'03:22'}/>
+        <MatchCard link={'../'} image={dash_cod} player_one_name={'Enigma'} player_one_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} player_two_name={'George'} player_two_avatar={'https://api.dicebear.com/9.x/adventurer/svg?seed=George'} reward={'500'} time={'03:22'}/>
+        <MatchCard link={'../'} image={dash_football} player_one_name={'Enigma'} player_one_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} player_two_name={'James'} player_two_avatar={'https://api.dicebear.com/9.x/adventurer/svg?seed=Jack'} reward={'500'} time={'03:22'}/>
         <MatchCard link={'../'} image={dash_mk} player_one_name={'Enigma'} player_one_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} player_two_name={'James'} player_two_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} reward={'500'} time={'03:22'}/>
         <MatchCard link={'../'} image={dash_ff} player_one_name={'Enigma'} player_one_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} player_two_name={'James'} player_two_avatar={'https://api.dicebear.com/9.x/bottts/svg?seed=Avery'} reward={'500'} time={'03:22'}/>
 

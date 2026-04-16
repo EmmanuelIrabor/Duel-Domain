@@ -55,9 +55,9 @@
           <p class="font-bold text-xs">0 $DUEL</p>
         </div>
         <div>
-          <button class="btn-secondary rounded-full text-xs px-2 py-2 flex flex-row items-center gap-1" title="Add Duels">
+           <a href="Add-Duels" class="btn-secondary rounded-full text-xs px-2 py-2 flex flex-row items-center gap-1" title="Add Duels">
             <i class="fa-solid fa-plus"></i>
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -84,9 +84,9 @@
           <p class="font-bold text-xs">0 $DUEL</p>
         </div>
         <div>
-          <button class="btn-secondary rounded-full text-xs px-2 py-2 flex flex-row items-center gap-1" title="Add Duels">
-            <i class="fa-solid fa-plus text-xs"></i>
-          </button>
+           <a href="Add-Duels" class="btn-secondary rounded-full text-xs px-2 py-2 flex flex-row items-center gap-1" title="Add Duels">
+            <i class="fa-solid fa-plus"></i>
+          </a>
         </div>
       </div>
 

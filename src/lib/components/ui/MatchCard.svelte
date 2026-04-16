@@ -17,14 +17,14 @@
 
             <div class="bg-white/10 backdrop-blur-md rounded-full px-3 py-1 text-xs text-green flex flex-row items-center gap-1">
              <i class="fa-solid fa-burst"></i>
-             LIVE.{time}
+             Live.{time}
           </div>
 
           <div>
 
             <div class="bg_grd_one rounded-md text-xs px-3 py-1">
 
-                ${reward}
+                ${reward}Duel
 
             </div>
 
