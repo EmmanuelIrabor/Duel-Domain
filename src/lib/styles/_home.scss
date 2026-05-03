@@ -1,7 +1,7 @@
 @use "./fonts";
-@import "mixins";
-@import "colors";
-@import "typography";
+@use "./mixins" as *;
+@use "./colors" as *;
+@use "./typography" as *;
 
 .hero-gif_container{
     position: relative;

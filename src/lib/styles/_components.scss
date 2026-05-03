@@ -1,5 +1,8 @@
 
-@import "colors";
+@use "./fonts";
+@use "./mixins" as *;
+@use "./colors" as *;
+@use "./typography" as *;
  .progress-gradient {
     background: linear-gradient(to right, $color-primary 0%, $color-mid 50%, $color-secondary 100%);
   }

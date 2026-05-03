@@ -1,5 +1,5 @@
 
-@import "colors";
+@use "./colors" as *;
 .auth-container {
    border: 15px solid transparent;
    border-image: url('../assets/dotted_border.png') 30 repeat;

@@ -8,7 +8,7 @@
     const navItems = [
         { name: 'DashBoard', icon: 'fa-solid fa-cubes',        link: '../Dashboard' },
         { name: 'Games',     icon: 'fa-solid fa-gamepad',      link: '../Dashboard/Games' },
-        { name: 'Stake',     icon: 'fa-solid fa-wallet',       link: 'Dashboard/Stake' },
+        { name: 'Stake',     icon: 'fa-solid fa-wallet',       link: '../Dashboard/Stake' },
         { name: 'Matches',   icon: 'fa-solid fa-burst',        link: '../Dashboard/Matches' },
         { name: 'Tournaments', icon: 'fa-solid fa-ranking-star', link: '../' },
         { name: 'Challenges', icon: 'fa-solid fa-circle-nodes', link: '../' },

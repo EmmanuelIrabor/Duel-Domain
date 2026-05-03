@@ -1,8 +1,8 @@
 
 @use "./fonts";
-@import "mixins";
-@import "colors";
-@import "typography";
+@use "./mixins" as *;
+@use "./colors" as *;
+@use "./typography" as *;
 
 button{
     cursor: pointer;

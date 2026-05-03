@@ -33,14 +33,14 @@
             <div class="flex flex-row gap-10">
 
                 <a class="text-xs" href="../About">About Us</a>
-                <a class="text-xs" href="">Privacy Policy</a>
+                <a class="text-xs" href="../">Privacy Policy</a>
 
             </div>
 
              <div class="flex flex-row gap-10">
 
                 <a class="text-xs" href="Contact/">Contact</a>
-                <a class="text-xs" href="">Terms & Conditions</a>
+                <a class="text-xs" href="../">Terms & Conditions</a>
 
             </div>
 
@@ -54,15 +54,15 @@
          <h1 class="font-bold text-lg">Follow Us</h1>
          <div class="flex flex-row gap-5 mt-5">
 
-            <a href=""> <i class="fa-brands fa-discord grd_one"></i></a>
+            <a href="../" aria-label="brand" > <i class="fa-brands fa-discord grd_one"></i></a>
 
            
             
-            <a href=""><i class="fa-brands fa-twitch grd_one"></i></a>
+            <a href="../" aria-label="brand"><i class="fa-brands fa-twitch grd_one"></i></a>
 
-            <a href=""><i class="fa-brands fa-x-twitter grd_one"></i></a>
+            <a href="../" aria-label="brand"><i class="fa-brands fa-x-twitter grd_one"></i></a>
 
-            <a href=""><i class="fa-brands fa-instagram grd_one"></i></a>
+            <a href="../" aria-label="brand"><i class="fa-brands fa-instagram grd_one"></i></a>
 
          </div>
 

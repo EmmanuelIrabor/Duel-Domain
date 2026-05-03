@@ -140,7 +140,7 @@
                         </div>
 
                         <div class="bg-primary px-2 py-1 rounded-sm text-xs font-bold">
-                        STRIPE SECURE
+                        SECURE PAY
 
                         </div>
 
@@ -159,7 +159,7 @@
                      <div>
                 <div class="flex items-center justify-center mt-5">
 
-                    <button class="bg-white text-black rounded-sm px-3 py-3 flex justify-center flex-row items-center gap-1 font-bold text-center w-full" > Checkout with Stripe <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="bg-white text-black rounded-sm px-3 py-3 flex justify-center flex-row items-center gap-1 font-bold text-center w-full" >Secure Pay <i class="fa-solid fa-arrow-right"></i></button>
 
                 </div>
             </div>
@@ -195,7 +195,7 @@
                      <div>
                 <div class="flex items-center justify-center mt-5">
 
-                    <button class="bg-discord text-white rounded-sm px-3 py-3 flex justify-center flex-row items-center gap-1 font-bold text-center w-full" > Pay Via Cryptomus <i class="fa-solid fa-bolt"></i></button>
+                    <button class="bg-discord text-white rounded-sm px-3 py-3 flex justify-center flex-row items-center gap-1 font-bold text-center w-full" >Cryptomus <i class="fa-solid fa-bolt"></i></button>
 
                 </div>
             </div>

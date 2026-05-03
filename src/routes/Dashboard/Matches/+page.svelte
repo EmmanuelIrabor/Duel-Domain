@@ -137,14 +137,7 @@
            
 
 
-            <div class="flex flex-row flex-wrap gap-2 items-center mt-1 md:mt-2">
-
-            <DashboardPlatformSelectCard link={'../'} icon={'fa-solid fa-mobile'} platform={'Mobile'} active={true}/>
-            <DashboardPlatformSelectCard link={'../'} icon={'fa-solid fa-display'} platform={'PC'} />
-            <DashboardPlatformSelectCard link={'../'} icon={'fa-brands fa-playstation'} platform={'Playstation'}/>
-            <DashboardPlatformSelectCard link={'../'} icon={'fa-brands fa-xbox'} platform={'Xbox'}/>
-
-            </div>
+            
 
         </div>
 
